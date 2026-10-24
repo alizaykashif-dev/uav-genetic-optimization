@@ -157,5 +157,5 @@ git remote add origin YOUR_REPOSITORY_URL
 git push -u origin main
 ```
 
-Replace `YOUR_REPOSITORY_URL` with the URL of your own repository. Do not commit a virtual environment.
+
 
