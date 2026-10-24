@@ -1,0 +1,228 @@
+{
+  "config": {
+    "seed": 42,
+    "population_size": 20,
+    "generations_requested": 10,
+    "generations_completed": 10,
+    "mutation_rate": 0.1,
+    "tournament_size": 3,
+    "waypoints_per_drone": 8,
+    "patience": 20
+  },
+  "metrics": {
+    "fitness": 0.11253317323744565,
+    "coverage": 0.3745938883134005,
+    "open_area_coverage": 0.3632404181184669,
+    "detection": 0.3121621621621622,
+    "energy": 449.48127553211424,
+    "energy_normalized": 0.3745677296100952,
+    "flight_time": 80.13379224927012,
+    "time_normalized": 0.38158948690128625,
+    "hazard_exposure": 39.652197309753674,
+    "hazard_normalized": 0.17879228189250262,
+    "distance": 221.77801463261278,
+    "obstacle_violations": 0,
+    "range_violations": 0,
+    "time_violations": 0,
+    "feasible": true,
+    "covered_cells": 896
+  },
+  "feasible": true,
+  "plans": [
+    {
+      "drone": "Drone 1",
+      "start": [
+        2,
+        2
+      ],
+      "goal": [
+        47,
+        47
+      ],
+      "waypoints": [
+        [
+          5,
+          11
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          17,
+          14
+        ],
+        [
+          15,
+          18
+        ],
+        [
+          29,
+          23
+        ],
+        [
+          30,
+          27
+        ],
+        [
+          32,
+          34
+        ],
+        [
+          43,
+          37
+        ]
+      ],
+      "speed_modes": [
+        0,
+        1,
+        1,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "sensor_modes": [
+        0,
+        1,
+        1,
+        0,
+        2,
+        0,
+        2,
+        2
+      ]
+    },
+    {
+      "drone": "Drone 2",
+      "start": [
+        2,
+        47
+      ],
+      "goal": [
+        47,
+        2
+      ],
+      "waypoints": [
+        [
+          3,
+          34
+        ],
+        [
+          16,
+          31
+        ],
+        [
+          17,
+          31
+        ],
+        [
+          19,
+          26
+        ],
+        [
+          26,
+          19
+        ],
+        [
+          33,
+          15
+        ],
+        [
+          36,
+          16
+        ],
+        [
+          47,
+          3
+        ]
+      ],
+      "speed_modes": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "sensor_modes": [
+        1,
+        2,
+        1,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "drone": "Drone 3",
+      "start": [
+        25,
+        2
+      ],
+      "goal": [
+        25,
+        47
+      ],
+      "waypoints": [
+        [
+          29,
+          2
+        ],
+        [
+          24,
+          13
+        ],
+        [
+          25,
+          19
+        ],
+        [
+          18,
+          17
+        ],
+        [
+          28,
+          25
+        ],
+        [
+          22,
+          35
+        ],
+        [
+          25,
+          32
+        ],
+        [
+          27,
+          37
+        ]
+      ],
+      "speed_modes": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        0,
+        2
+      ],
+      "sensor_modes": [
+        0,
+        1,
+        2,
+        2,
+        1,
+        0,
+        2,
+        1
+      ]
+    }
+  ]
+}
