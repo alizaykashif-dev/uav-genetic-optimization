@@ -144,18 +144,7 @@ The implementation uses a **weighted-sum scalar fitness** so a standard GA can r
 3. One member owns visualizations, experiments, and the report.
 4. Agree on interfaces first, integrate with Git, and all team members should understand the complete implementation.
 
-## GitHub upload
 
-Create an empty repository on GitHub, then run:
-
-```bash
-git init
-git add .
-git commit -m "Add UAV genetic optimization simulation"
-git branch -M main
-git remote add origin YOUR_REPOSITORY_URL
-git push -u origin main
-```
 
 
 
